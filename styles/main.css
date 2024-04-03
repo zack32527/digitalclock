@@ -1,10 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-
+}
 
 body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: radial-gradient(lightblue 25%, white, darkblue 50% );
+
+}
+
+header h2{
+    text-align: center;
+    margin-top: 2em;
+    font-size: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 main{
@@ -17,5 +31,6 @@ main{
 }
 .digitalclock{
     display: flex;
+    font-size: 20px;
     gap: .25em;
 }
